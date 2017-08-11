@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#text {
+  position: absolute;
+  width: 100%;
+  top:20%;
+  left: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: cambria ,sans-serif;
+  color: white;
+  text-shadow: 4px 4px #999999;
+}
+
+#text p {
+  font-size: 30px;
+  font-family: cambria, sans-serif;
+  color: #808080;
+}
+
+#more {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#more img {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  top: 90%;
+  left: 50%;
+  cursor: pointer;
+}
+
+#navi {
+  position: relative;
+  margin-top: 47%;
+  display: none;
+  background-image: url("navibackground.jpg");
+  width: 100%;
+  height: 300px;
+}
+
+#closeX img {
+  float: right;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.naviPics {
+  float: left;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.naviPics img {
+  margin-left: 120px;
+  border: 5px #808080 solid;
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  cursor: pointer;
+}
